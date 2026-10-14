@@ -1,0 +1,19 @@
+
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.streamlit/secrets.toml
+
+# Uploaded videos and generated files
+data/uploads/*
+!data/uploads/.gitkeep
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Generated reports
+presentation_report.txt
+*.log
